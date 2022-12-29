@@ -72,11 +72,8 @@ class gridsearchcv_model:
         
     # Trains model using a training set and predicts a validation set
     def train_model(self, model, X_train, Y_train, X_val, Y_val, parameter_matrix={}, cv=4):
-        if self.is_classification:
-            ml_model = sklearn.model_selection.GridSearchCV(model, parameter_matrix, cv=cv, scoring='f1')
-        else:
-             ml_model = sklearn.model_selection.GridSearchCV(model, parameter_matrix, cv=cv, scoring='neg_mean_squared_error')
-        
+        ml_model = sklearn.model_selection.GridSearchCV(model, parameter_matrix, cv=cv, scoring='f1')
+    
         ml_model.fit(X_train, Y_train)
         
         self.model = ml_model.best_estimator_
