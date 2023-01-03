@@ -1,5 +1,10 @@
-In the last few years, Brain Computer Interface (BCI) has grown as a very popular topic due to its application in rehabilitation and medical engineering. This interface refers to a system that allows a direct communication between the brain and assistive devices like electric wheelchairs, exoskeletons, artificial limbs, etc [1]. BCI works by translating the brain activities to operate several assistive devices, without any manual intervention. These brain activities are monitored using electroencephalogram (EEG) and are then classified to manipulate external devices [2].
+This repository is for DAMI II project for Group-9 (Osama & Shubhra).
+# Topic: MI classification using neural networks.
+# Abstract: Brain-Computer Interface (BCI) is a collaborative system that detects the intention of brain signals to interact with the environment to achieve any objective such as movements. Many assistive technologies based on BCI systems are being developed to support physically challenged individuals, but the classification task to identify the brain signal with reasonably high accuracy is a challenge. In this study, we evaluate different neural network architectures including regular neural network, convolutional neural network, residual neural network, MobileNet, and InceptionNet with the aim of reliably detecting hand gesture movements from brain signals. The results demonstrated that among selected neural network architectures, regular neural network was most effective with F1-score of 0.00 and accuracy of 0.00. 
+# The code is available here:
 
 * [NeuralNetwork](./NeuralNetwork.ipynb)
+
+# References:
 * [REFERENCES](./REFERENCES.md)
 
