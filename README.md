@@ -6,7 +6,7 @@ Abstract: Brain-Computer Interface (BCI) is a collaborative system that detects 
 
 The code is available here:
 
-* [NeuralNetwork](./NeuralNetwork.ipynb)
+* [Code](./NeuralNetwork.ipynb)
 
  References:
  
