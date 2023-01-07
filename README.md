@@ -1,6 +1,6 @@
 This repository is for DAMI II project for Group-9 (Osama & Shubhra).
 
-Topic: MI classification using neural networks.
+Topic: Motor Imagery and assistive technologies
 
 Abstract: Brain-Computer Interface (BCI) is a collaborative system that detects the intention of brain signals to interact with the environment to achieve any objective such as movements. Many assistive technologies based on BCI systems are being developed to support physically challenged individuals, but the classification task to identify the brain signal with reasonably high accuracy is a challenge. In this study, we evaluate different neural network architectures including:
 
